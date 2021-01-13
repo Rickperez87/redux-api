@@ -1,7 +1,4 @@
 import { combineReducers } from "redux";
+import postsReducer from "./postsReducer";
 
-const dummyReducer = () => {
-  return "replace me";
-};
-
-export default combineReducers({ dummy: dummyReducer });
+export default combineReducers({ posts: postsReducer });
