@@ -1,9 +1,7 @@
 import jsonPlaceholder from "../apis/jsontypicode";
 
-export const fetchPosts = async () => {
+export const fetchPosts = () => async (dispatch) => {
   const response = await jsonPlaceholder.get("/posts");
-  return {
-    type: "Fetch_DATA",
-    payload: response,
-  };
+
+  dispatch({ type: "Fetch_DATA", payload: response });
 };
