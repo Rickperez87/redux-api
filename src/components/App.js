@@ -1,5 +1,12 @@
+import React from "react";
+import BlogList from "./blogList";
+
 function App() {
-  return <div className="App">app</div>;
+  return (
+    <div>
+      <BlogList />
+    </div>
+  );
 }
 
 export default App;
