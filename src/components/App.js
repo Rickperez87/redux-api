@@ -1,10 +1,12 @@
 import React from "react";
-import BlogList from "./blogList";
+import CommentList from "components/commentList";
+import CommentBox from "components/commentBox";
 
 function App() {
   return (
     <div>
-      <BlogList />
+      <CommentBox />
+      <CommentList />
     </div>
   );
 }
