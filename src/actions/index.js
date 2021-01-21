@@ -9,7 +9,6 @@
 export const commentList = () => {
   return {
     type: "COMMENT_LIST",
-    payLoad: [],
   };
 };
 
