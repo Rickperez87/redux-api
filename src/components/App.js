@@ -1,6 +1,6 @@
 import React from "react";
 import CommentList from "components/commentList";
-import CommentBox from "components/commentBox";
+import CommentBox from "components/commentbox";
 
 function App() {
   return (
